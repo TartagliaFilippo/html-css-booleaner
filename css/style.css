@@ -5,15 +5,26 @@ body{
 
 /* INTESTAZIONE */
 header{
-    height: 150px;
+    height: 170px;
     background-color: #1E90FF;
     background-image: url(../img/pattern.png);
     position: relative;
 }
 
 .logo{
-    height: 100px;
+    height: 110px;
     position: absolute;
     left: 0;
-    bottom: 0; 
+    bottom: 10px; 
+}
+
+/* SEZIONE TITOLO */
+h1{
+    font-size: 3rem;
+    margin: 5px 0 0 0;
+}
+
+/* LINK ARTICOLO */
+a{
+    text-decoration: none;
 }
