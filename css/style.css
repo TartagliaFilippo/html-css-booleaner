@@ -39,7 +39,31 @@ a{
 
 /* FOTO E DESCRIZIONE */
 .descrizione{
-    margin: 0;
+    margin: 0
+;
 }
 
+/* EVIDENZAITORE */
+.evidenziatore{
+    background-color: yellow;
+}
+
+/* TABELLA */
+thead{
+    background-color: #1E90FF;
+}
+
+th{
+    color: white;
+    font-weight: bold;
+    width: 30%;
+}
+
+td{
+    background-color: lightblue;
+}
+
+.puro{
+    background-color: white;
+}
 
