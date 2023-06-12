@@ -33,6 +33,13 @@ a{
     text-decoration: none;
 }
 
-.data_articolo{
+.smaller{
     font-size: smaller;
 }
+
+/* FOTO E DESCRIZIONE */
+.descrizione{
+    margin: 0;
+}
+
+
