@@ -24,7 +24,7 @@ h1{
     margin: 5px 0 0 0;
 }
 
-article{
+.mite{
     color: grey;
 }
 
@@ -54,11 +54,17 @@ thead{
 }
 
 th{
+    text-align: left;
     color: white;
     font-weight: bold;
-    width: 30%;
+    width: 25%;
 }
 
+.maggioranza{
+    width: 45%;
+}
+
+/* COLORI TD */
 td{
     background-color: lightblue;
 }
@@ -67,3 +73,24 @@ td{
     background-color: white;
 }
 
+/* FOOTER */
+
+.monitor{
+    height: 150px;
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 5px;
+}
+
+.graph{
+    height: 150px;
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 5px;
+}
+
+h3{
+    color: white;
+}
