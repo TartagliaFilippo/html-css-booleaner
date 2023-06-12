@@ -24,7 +24,15 @@ h1{
     margin: 5px 0 0 0;
 }
 
+article{
+    color: grey;
+}
+
 /* LINK ARTICOLO */
 a{
     text-decoration: none;
+}
+
+.data_articolo{
+    font-size: smaller;
 }
