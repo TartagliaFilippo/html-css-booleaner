@@ -7,7 +7,7 @@ body{
 header{
     height: 170px;
     background-color: #1E90FF;
-    background-image: url(../img/pattern.png);
+    background-image: url("../img/pattern.png");
     position: relative;
 }
 
@@ -31,6 +31,7 @@ h1{
 /* LINK ARTICOLO */
 a{
     text-decoration: none;
+    color: #1E90FF;
 }
 
 .smaller{
@@ -39,8 +40,7 @@ a{
 
 /* FOTO E DESCRIZIONE */
 .descrizione{
-    margin: 0
-;
+    margin: 0;
 }
 
 /* EVIDENZAITORE */
@@ -49,6 +49,10 @@ a{
 }
 
 /* TABELLA */
+table{
+    border-collapse: collapse;
+}
+
 thead{
     background-color: #1E90FF;
 }
